@@ -78,7 +78,7 @@ There were 3 features having missing values.
 - Age
 - Embarked
 
-Cabin has way too many missing values and hence it is better to drop.
+Cabin has way too many missing values. We have imputed the missing values with the most frequent value and then extracted the deck information from that.
 
 As per the training dataset, there were more male present compared to female and most of the people didnot survive. But females had better survival rate than males. It was also found out that survived passengers had paid more fare than the ones that did not survive. At the same time Pclass = 1 had better survival rate than the rest 2 classes.
 
